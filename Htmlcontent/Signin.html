@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the coding mania | Sign in</title>
+    <style>
+        h1{
+    background-color: rgba(75, 0, 128, 0.853);
+    text-align: center;
+    padding:20px;
+    font-size: 65px;
+    border:3px solid none;
+    border-radius: 5px;
+    }
+    nav{
+    background-color:black;
+    color:white;
+    word-spacing: 5px;
+    font-size: larger;
+    }
+    *{
+    border:2px solid none;
+    padding:12px;
+    margin:0px;
+    border-radius: 5px;
+    }
+    form{
+        background-color: beige;
+    }
+    a{
+    color:white;
+    }
+    input{
+    width:50%;
+    }
+    input[type="submit"]{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+    </style>
+</head>
+<body>
+<h1> The coding mania</h1>
+<nav>
+    <a href="#" class="fa fa-home"></a>
+    <a href="#">Home</a>&nbsp&nbsp
+    <a href="#">Notes</a>&nbsp&nbsp
+   <a href="#">Practice Sets</a>&nbsp&nbsp
+   <a href="#" class="fa fa-user"></a>
+    <a href="Login.html" target="_blank" id="login">Login/Sign in</a>&nbsp&nbsp
+    <a href="#" class="fa fa-"></a>
+    </nav>
+<form>
+<fieldset>
+<legend>Signin Credentials</legend>
+<p>Name*:<input type="text" name="name" id="name" required></p>
+<p>Username/Email id:*<input type="email" name="email" id="email" required></p>
+<p>Password:*<input type="password" name ="password" id="password"></p>
+<p>Occupation:*<select name="occu" id="occu" required>
+    <option value="">Select an occupation</option>
+    <option value="Student">Student</option>
+    <option value="Educator">Educator</option>
+    <option value="Devlepor">Developer</option>
+    <option value="others">Others</option>
+</select></p>
+<p>Mobile number:*<input type="number" name="number" id="number" required></p>
+<p>OTP:*<input type="number" ></p>
+<input type="submit" value="Sign in" style="width:initial">&nbsp
+<a href="Login.html"  style="color:blue">Already signed up ?</a>
+</fieldset>
+</form>
+</body>
+</html>
